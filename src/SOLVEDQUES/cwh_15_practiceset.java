@@ -1,6 +1,4 @@
-package lax.xom;
-
-import java.util.Locale;
+package SOLVEDQUES;
 
 public class cwh_15_practiceset {
     public static void main(String[] args) {
