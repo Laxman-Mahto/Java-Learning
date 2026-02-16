@@ -13,6 +13,7 @@ public class cwh_04_literals {
         System.out.println(age);
         String str = "rahul";
         System.out.println(str);
+        System.out.println(ch);
 
     }
 
