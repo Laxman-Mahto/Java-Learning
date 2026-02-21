@@ -11,8 +11,7 @@ public class cwh26_array {
         System.out.println(marks[2]); */
 
         int[] marks= {9,3,6,8,6};
-        System.out.println(marks[3]);-*///////
-        .0
+        System.out.println(marks[3]);
 
     }
 }
