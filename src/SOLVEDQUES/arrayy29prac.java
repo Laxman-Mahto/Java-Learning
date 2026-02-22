@@ -56,21 +56,50 @@ public class arrayy29prac {
 //            System.out.println(" "); // to print new line
 //        }
         
-        // prob 5 very imp.
-        int [] arr={1,2,3,4,5,6,7};
-        int l=arr.length;
-        int n=Math.floorDiv(l,2);
-        int temp;
+//        // prob 5 very imp.
+//        int [] arr={1,2,3,4,5,6,7};
+//        int l=arr.length;
+//        int n=Math.floorDiv(l,2);
+//        int temp;
+//
+//        for(int i=0;i<n;i++) {
+//            temp = arr[i];
+//            arr[i] = arr[l - 1 - i];
+//            arr[l - 1 - i] = temp;
+//            //from this we get answer in reverse order
+//        }
+//        for(int element:arr){
+//           System.out.print(element+ " ");
+//            System.out.println(element);
+//        }
 
-        for(int i=0;i<n;i++) {
-            temp = arr[i];
-            arr[i] = arr[l - 1 - i];
-            arr[l - 1 - i] = temp;
-            //from this we get answer in reverse order
+//        //prob 6
+//        int [] arr = {1,2,3,4,5,6,7};
+//        int max =0;
+//        for(int e: arr){
+//            if(e>max){ //e means element
+//                max=e;
+//            }
+//        }
+//        System.out.println("the maximun value of the aray is :" + max);
+
+        // 8 java progrqam to check array is sorted or not
+        int []arr={1,2,3,6,34,85,86};
+        boolean isSorted = true;
+        for(int i=0;i<arr.length-1;i++){
+            if (arr[i] > arr[i + 1]) {
+                isSorted = false;
+                break;
+            }
+            if(isSorted){
+                System.out.println("array is sorted");
+            }
+            else{
+                System.out.println("array is not sorted");
+
+            }
+
         }
-        for(int element:arr){
-//            System.out.print(element+ " ");
-            System.out.println(element);
-        }
-        }
+    }
 }
+
